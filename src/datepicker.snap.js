@@ -583,7 +583,7 @@ exports[`Components: DatePicker > should render a date picker with defaultYear, 
     >
        
       <div
-        class="calendars-container svelte-1yjsrmc"
+        class="calendars-container svelte-1yjsrmc show"
       >
          
         <div
