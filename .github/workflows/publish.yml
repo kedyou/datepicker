@@ -27,6 +27,7 @@ jobs:
           version: 9
           scope: '@kedyou'
       - run: pnpm install
+      - run: pnpm build
       - run: pnpm test
       - run: pnpm publish --no-git-checks
         env:
