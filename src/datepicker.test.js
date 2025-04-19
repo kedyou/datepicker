@@ -101,4 +101,13 @@ describe('Components: DatePicker', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should render a date picker with defaultYear, defaultMonth', () => {
+    const { container } = TestHarness({
+      ...config,
+      defaultYear: 2021,
+      defaultMonth: 5
+    });
+    expect(container).toMatchSnapshot();
+  });
 });

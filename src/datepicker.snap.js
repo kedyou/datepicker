@@ -574,6 +574,574 @@ exports[`Components: DatePicker > should render a date picker with Monday as sta
 </body>
 `;
 
+exports[`Components: DatePicker > should render a date picker with defaultYear, defaultMonth 1`] = `
+<body>
+  <div>
+    <div
+      class="datepicker svelte-1yjsrmc"
+      data-picker-theme=""
+    >
+       
+      <div
+        class="calendars-container svelte-1yjsrmc"
+      >
+         
+        <div
+          class="calendar svelte-1yjsrmc"
+        >
+          <header
+            class="svelte-1yjsrmc"
+          >
+            <button
+              class="svelte-1yjsrmc"
+              type="button"
+            >
+              <div
+                aria-label="Previous month"
+                class="icon-previous-month svelte-1yjsrmc"
+              />
+            </button>
+             
+            <span
+              class="svelte-1yjsrmc"
+            >
+              <div
+                class="svelte-1yjsrmc"
+              >
+                June
+                 
+                2021
+              </div>
+               
+              <div
+                class="years svelte-1yjsrmc"
+              >
+                <button
+                  class="svelte-1yjsrmc"
+                  type="button"
+                >
+                  <i
+                    aria-label="Next year"
+                    class="icon-next-year svelte-1yjsrmc"
+                  />
+                </button>
+                 
+                <button
+                  class="svelte-1yjsrmc"
+                  type="button"
+                >
+                  <i
+                    aria-label="Previous year"
+                    class="icon-previous-year svelte-1yjsrmc"
+                  />
+                </button>
+              </div>
+            </span>
+             
+            <button
+              class="svelte-1yjsrmc"
+              type="button"
+            >
+              <div
+                aria-label="Next month"
+                class="icon-next-month svelte-1yjsrmc"
+              />
+            </button>
+          </header>
+           
+           
+          <div
+            class="month svelte-1yjsrmc"
+          >
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              Su
+            </span>
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              Mo
+            </span>
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              Tu
+            </span>
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              We
+            </span>
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              Th
+            </span>
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              Fr
+            </span>
+            <span
+              class="dow svelte-1yjsrmc"
+            >
+              Sa
+            </span>
+             
+            
+            
+            <div
+              class="date other svelte-1yjsrmc"
+            >
+               
+            </div>
+            
+            
+            <div
+              class="date other svelte-1yjsrmc"
+            >
+               
+            </div>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future first"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                1
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                2
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                3
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                4
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                5
+              </span>
+               
+            </button>
+            
+            
+            
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                6
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                7
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                8
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                9
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                10
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                11
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                12
+              </span>
+               
+            </button>
+            
+            
+            
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                13
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                14
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                15
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                16
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                17
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                18
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                19
+              </span>
+               
+            </button>
+            
+            
+            
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                20
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                21
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                22
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                23
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                24
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                25
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                26
+              </span>
+               
+            </button>
+            
+            
+            
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                27
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                28
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                29
+              </span>
+               
+            </button>
+            
+            
+            <button
+              class="date svelte-1yjsrmc future last"
+              type="button"
+            >
+              <span
+                class="svelte-1yjsrmc"
+              >
+                30
+              </span>
+               
+            </button>
+            
+            
+            <div
+              class="date other svelte-1yjsrmc"
+            >
+               
+            </div>
+            
+            
+            <div
+              class="date other svelte-1yjsrmc"
+            >
+               
+            </div>
+            
+            
+            <div
+              class="date other svelte-1yjsrmc"
+            >
+               
+            </div>
+            
+            
+            
+            
+            
+          </div>
+        </div>
+         
+      </div>
+    </div>
+     
+    <!--&lt;Datepicker&gt;-->
+  </div>
+</body>
+`;
+
 exports[`Components: DatePicker > should render a date picker with my custom locale 1`] = `
 <body>
   <div>

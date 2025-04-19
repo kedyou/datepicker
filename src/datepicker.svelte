@@ -35,15 +35,15 @@
 
   /**
    * Represents the default year for the date picker.
-   * @type {number}
+   * @type {number | null}
    */
-  export let defaultYear = today.getFullYear();
+  export let defaultYear = null;
 
   /**
    * Represents the default month for the date picker.
-   * @type {number}
+   * @type {number | null}
    */
-  export let defaultMonth = today.getMonth();
+  export let defaultMonth = null;
 
   /**
    * Represents the start day of the week (0 for Sunday, 1 for Monday, etc.).
@@ -353,8 +353,8 @@
     isOpen = false;
   };
 
-  let startDateYear = Number(defaultYear);
-  let startDateMonth = Number(defaultMonth);
+  let startDateYear = Number(defaultYear ?? today.getFullYear());
+  let startDateMonth = Number(defaultMonth ?? today.getMonth());
 
   const updateCalendars = () => {
     startDateCalendar = startDateCalendar;
@@ -369,7 +369,7 @@
   const onNavigation = async (direction, type) => {
     await tick();
 
-    const initial = new Date(defaultYear, defaultMonth);
+    const initial = new Date(defaultYear ?? today.getFullYear(), defaultMonth ?? today.getMonth());
     const initialDayOffMonth = '01';
 
     let current = new Date(startDateYear, startDateMonth);
@@ -910,11 +910,6 @@
   $: !isRange && (endDate = null);
   $: disabled = getDatesFromArray(disabledDates);
   $: enabled = getDatesFromArray(enabledDates, true);
-
-  $: if (!startDate && !endDate) {
-    startDateYear = Number(defaultYear);
-    startDateMonth = Number(defaultMonth);
-  }
 
   $: if (isRange !== null || (startDate && tempEndDate !== null) || !isOpen) {
     updateCalendars();
