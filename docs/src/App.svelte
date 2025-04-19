@@ -68,7 +68,13 @@
         <td>defaultYear</td>
         <td><code>number</code></td>
         <td>The year you want to show as the default.</td>
-        <td><code>{today.getFullYear()}</code></td>
+        <td><code>startDate?.getFullYear() ?? today.getFullYear()</code></td>
+      </tr>
+      <tr>
+        <td>defaultMonth</td>
+        <td><code>number</code></td>
+        <td>The year you want to show as the default.</td>
+        <td><code>startDate?.getMonth() ?? today.getMonth()</code></td>
       </tr>
       <tr>
         <td>align</td>
