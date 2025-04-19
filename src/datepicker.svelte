@@ -915,7 +915,7 @@
     updateCalendars();
   }
 
-  $: if (isOpen) {
+  $: if (isOpen && !alwaysShow) {
     if ((!isRange && startDate) || (isRange && startDate && endDate)) {
       const date = new Date(startDate);
       startDateYear = date.getFullYear();

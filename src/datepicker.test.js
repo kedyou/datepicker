@@ -1,5 +1,6 @@
-import { render } from '@testing-library/svelte';
+import { render, screen } from '@testing-library/svelte';
 import DatePicker from './datepicker.svelte';
+import { expect } from 'vitest';
 
 const today = new Date('1/1/2020');
 
@@ -105,9 +106,18 @@ describe('Components: DatePicker', () => {
   it('should render a date picker with defaultYear, defaultMonth', () => {
     const { container } = TestHarness({
       ...config,
+      alwaysShow: true,
+      isOpen: true,
       defaultYear: 2021,
-      defaultMonth: 5
+      defaultMonth: 5,
+      startDate: new Date('2022-10-01') // Should not affect the default year/month
     });
     expect(container).toMatchSnapshot();
+
+    const correctMonth = screen.queryByText('June 2021');
+    expect(correctMonth).toBeInTheDocument();
+
+    const incorrectMonth = screen.queryAllByText('October 2022');
+    expect(incorrectMonth).toHaveLength(0);
   });
 });
